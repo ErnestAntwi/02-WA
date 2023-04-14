@@ -1,0 +1,145 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    background-color: transparent;
+    text-shadow: 2px 2px 2px black;
+}
+li, a {
+    display:inline;
+    background-color: transparent;
+    font-size: 15px;
+    color: white
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+header {
+    font-size: 25px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    color: rgba(0,136,169,1);
+}
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 25px;
+   
+}
+
+article {
+    background-color: rgb(105, 105, 105);
+}
+
+h2 {
+    padding: 0px 20px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.4);
+}
+
+.hidden {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+}
+
+.cards{
+    background-color: black;
+}
+
+.section1:hover .hidden {
+    display: block;
+    color: khaki;
+}
+
+.section2:hover .hidden
+{
+    display: block;
+    color: red;
+}
+
+.section3:hover .hidden {
+    display: block;
+    color: darkorchid;
+}
+
+.section4:hover .hidden {
+    display: block;
+    color: lightblue;
+}
+
+ .section1 {
+    border: 10px rgba(0,136,169,1) dashed;
+    margin: 100px
+ }
+
+img {
+    max-width: 100%;
+   
+}
+ .section2 {
+    flex: 1 0 50%;
+    border: 10px rgba(0,136,169,1) dashed;
+    margin: 100px
+ }
+
+.section3 {
+   flex: 1 0 50%;
+   border: 10px rgba(0,136,169,1) dashed;
+   margin: 100px
+}
+
+.section4 {
+   flex: 1 0 50%;
+   border: 10px rgba(0,136,169,1) dashed;
+   margin: 100px
+}
+
+footer {
+    background-color: transparent;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px;
+  
+}
+
+@media (max-width: 600px) {
+    .cards
+}
+
+@media screen and (max-width:768px){
+    .cards{
+        flex: 1 0 35%;
+    }
+}
+
